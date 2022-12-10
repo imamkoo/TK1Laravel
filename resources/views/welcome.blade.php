@@ -81,6 +81,7 @@
     <!-- Main Section Begin -->
     <section class="blog spad">
         <div class="container">
+            @include('alert')
             <div class="row row-cols-4">
                 @foreach ($data as $item)
                 <div class="col">

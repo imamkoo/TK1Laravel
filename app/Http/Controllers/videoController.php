@@ -166,6 +166,6 @@ class videoController extends Controller
         }
 
         video::where('id', $id)->delete();
-        return redirect('/')->with('success', 'Data Deleted!');
+        return redirect('/')->with('delete', 'Video Deleted!');
     }
 }
