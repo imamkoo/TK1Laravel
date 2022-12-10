@@ -71,7 +71,7 @@
                 <div class="col-lg-12 text-center">
                     <div class="normal__breadcrumb__text">
                         <h2>Binus Movie</h2>
-                        <p>Welcome to the Binus Movie.</p>
+                        <p>Welcome to Binus Movie</p>
                     </div>
                 </div>
             </div>
