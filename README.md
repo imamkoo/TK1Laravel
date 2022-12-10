@@ -1,4 +1,4 @@
-git clone https://github.com/deltcod/LaravelTube.git
+git clone(https://github.com/imamkoo/TK1Laravel.git)
 cd LaravelTube/
 composer install
 npm install
