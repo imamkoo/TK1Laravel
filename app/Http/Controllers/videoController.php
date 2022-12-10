@@ -158,6 +158,14 @@ class videoController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $cek = video::find($id);
+        $image_path = public_path('thumbnail') . "/" . $cek->thumbnail;
+        $image_path_ = public_path('video') . "/" . $cek->video;
+        if (File::exists($image_path, $image_path_)) {
+            File::delete($image_path, $image_path_);
+        }
+
+        video::where('id', $id)->delete();
+        return redirect('/')->with('success', 'Data Deleted!');
     }
 }

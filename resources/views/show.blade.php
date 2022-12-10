@@ -60,7 +60,14 @@
                                     </ul>
                                 </li>
                                 <li class="active"><a href="{{ url('/') }}">Home</a></li>
-                                <li><a href="{{ url('upload') }}">Delete Video</a></li>
+                                <li>
+                                    <form class="d-inline" action="{{ url('delete',$data->id) }}"
+                                        onsubmit="return confirm('Are You Sure Delete This ?')" method="POST">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button class="btn text-white" type="submit" name="submit">Delete Video</button>
+                                    </form>
+                                </li>
                             </ul>
                         </nav>
                     </div>

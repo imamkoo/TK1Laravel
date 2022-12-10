@@ -30,3 +30,5 @@ Route::put('updateVideo/{id}', [videoController::class, 'updateVideo']);
 Route::get('editThumbnail/{id}', [videoController::class, 'editThumbnail']);
 
 Route::get('editVideo/{id}', [videoController::class, 'editVideo']);
+
+Route::delete('delete/{id}', [videoController::class, 'destroy']);
