@@ -5,8 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Video Streaming</title>
-
+    <title>Binus Movie</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -78,13 +77,13 @@
     </header>
     <!-- Header End -->
 
-    <!-- Anime Section Begin -->
-    <section class="anime-details spad">
+    <!-- video Section Begin -->
+    <section class="video-details spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="anime__details__episodes">
-                        <div class="anime__video__player">
+                    <div class="video__details__episodes">
+                        <div class="video__video__player">
                             <video id="player" playsinline controls>
                                 <source src="/video/{{ $data->video }}" type="video/mp4" />
                                 <!-- Captions are optional -->
@@ -97,7 +96,7 @@
             </div>
         </div>
     </section>
-    <!-- Anime Section End -->
+    <!-- video Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer position-fixed fixed-bottom">
