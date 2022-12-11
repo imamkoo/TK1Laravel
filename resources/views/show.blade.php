@@ -78,12 +78,12 @@
     <!-- Header End -->
 
     <!-- video Section Begin -->
-    <section class="video-details spad">
+    <section class="anime-details spad">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="video__details__episodes">
-                        <div class="video__video__player">
+                    <div class="anime__details__episodes">
+                        <div class="anime__video__player">
                             <video id="player" playsinline controls>
                                 <source src="/video/{{ $data->video }}" type="video/mp4" />
                                 <!-- Captions are optional -->
