@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\pageController;
 use App\Http\Controllers\videoController;
 
 /*
